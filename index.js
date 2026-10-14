@@ -11,28 +11,28 @@
 //     document.getElementById("sanity").textContent = 'Sanity: ' + playerSanity + '%';
 // }
 
-const status = {
+// const status = {
 
-sanity : 25,
+// sanity : 25,
 
 
-updateSanity : function(amount){
+// updateSanity : function(amount){
 
- sanity += amount
-}
-}
+//  sanity += amount
+// }
+// }
 
-const inventory = {
+// const inventory = {
 
-hasKey : false,
+// hasKey : false,
 
-getKey : function(){
-    return hasKey;
-}
-}
+// getKey : function(){
+//     return hasKey;
+// }
+// }
 
-// document.getElementById("gain20").addEventListener("click", function() {
-//     status.updateSanity(20);
-// });
+// // document.getElementById("gain20").addEventListener("click", function() {
+// //     status.updateSanity(20);
+// // });
 
-document.getElementById("sanity").textContent = 'Sanity: ' + status.sanity + '%';
+// document.getElementById("sanity").textContent = 'Sanity: ' + status.sanity + '%';
