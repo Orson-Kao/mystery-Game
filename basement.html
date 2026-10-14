@@ -42,10 +42,20 @@
 <figure> 
     <img src = "image/basement.jpeg" alt = "the basement">
     <figcaption>
-       <a href="ai.html">  <button> open the door</button></a><br>
-        <a href = "exploreRoom2.html"> <button> go find the key</button></a><br> 
+       <!-- <a href="ai.html">  <button> open the door</button></a><br> -->
+        <!-- <a href = "exploreRoom2.html"> <button> go find the key</button></a><br>  -->
     </figcaption>
 </figure>
+ <div data-needs="key">
+    <p>The key turns. The basement door swings open.</p>
+    <a href="ai.html"><button>go into the AI room</button></a>
+  </div>
+
+  <div data-missing="key">
+    <p>The door is locked. You need something to open this.</p>
+    <a href = "exploreRoom2.html"> <button> go find the key</button></a>
+  </div>
+
         </section>
         
         <section>
@@ -56,6 +66,8 @@
                 <p><i>inventory</i></p>
             </figcaption>
          </figure>   
+<p>Inventory: <span id="inventory"></span></p>
+<p>Status: <span id="status"></span></p>
 
         </section>
     </main>
